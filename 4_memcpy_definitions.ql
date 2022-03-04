@@ -1,5 +1,5 @@
 import cpp
 
-from Macro m
-where m.getName() in ["ntohs","ntohl","ntohll"]
-select m
+from Function f
+where f.getName() = "memcpy"
+select f
